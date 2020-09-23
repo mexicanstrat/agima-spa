@@ -1,0 +1,21 @@
+body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  line-height: 0;
+  cursor: pointer;
+  transition: .1s;
+  padding: 2px;
+}
+
+button:hover {
+  color: lightgray;
+}

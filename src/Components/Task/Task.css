@@ -1,0 +1,44 @@
+.Task {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;   
+    animation-duration: .4s
+}
+
+.Task_completed input,
+.Task_completed textarea {
+    color: red;
+}
+
+.Task_margin {
+    margin: -10px 0;
+}
+
+.Task__time {
+    align-self: center;
+    width: 35px;
+
+}
+
+.Task__text {
+    padding: 0px 10px;
+    text-align: center;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 13px;
+    box-sizing: border-box;
+}
+
+.Task__time:focus,
+.Task__text:focus {
+    outline: none;
+}
+
+.Task__time,
+.Task__text {
+    border: none;
+    background: transparent;
+}
+
+

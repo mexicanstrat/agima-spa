@@ -1,0 +1,40 @@
+.TasksContainer {
+    width: 270px;
+    border: 2px solid black;
+    padding: 0 20px;
+}
+
+.TasksContainer__tasksWrap {
+    float: right;
+    margin-bottom: 15px;
+}
+
+.TasksContainer__moveButton {
+    font-size: xx-large;
+    text-align: end;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.TasksContainer__form {
+    float: right;
+    margin: 15px 0;
+}
+
+.TasksContainer__formInput_error {
+    border: 2px solid red;
+}
+
+.TasksContainer__formInput_error::-webkit-input-placeholder {
+    color: red;
+}
+
+.TasksContainer__formInput {
+    max-width: 100px;
+}
+
+.TasksContainer__formButton {
+    font-size: large;
+    margin-left: 15px;
+}
+

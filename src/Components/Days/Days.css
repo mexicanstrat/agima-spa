@@ -1,0 +1,17 @@
+.Days__element {
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.Days__element:hover {
+    border: 2px solid lightgrey;
+}
+
+.Days__element_active,
+.Days__element_active:hover {
+    border: 2px solid black;
+}
